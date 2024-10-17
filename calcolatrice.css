@@ -1,0 +1,35 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+
+
+body{
+ font-weight: bolder;
+ background-color: beige;
+}
+button{
+   margin-bottom: 2rem;
+   color: rgb(243, 243, 248);
+   padding: 1rem;
+   background-color: rgb(73, 28, 239);
+}
+input{
+    background-color: rgb(171, 172, 169);
+    
+    margin: 0.5rem 0;
+    
+}
+::placeholder{
+    color: rgb(234, 228, 228);
+}
+.container{
+   text-align: center;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+  flex-direction: row;
+}
